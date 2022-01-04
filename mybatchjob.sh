@@ -3,8 +3,8 @@
 #SBATCH --mem-per-cpu=2G
 #SBATCH --partition=sched_mit_sloan_batch
 #SBATCH --time=0-00:10
-#SBATCH -o /home/username/clusterrepo/myoutputfile.out
-#SBATCH -e /home/username/clusterrepo/myerrorfile.err
+#SBATCH -o /home/junhuiz/clusterrepo/myoutputfile.out
+#SBATCH -e /home/junhuiz/clusterrepo/myerrorfile.err
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=junhuiz@mit.edu
 
